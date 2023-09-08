@@ -1,0 +1,66 @@
+* {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.frontpage{
+  background-image: url(/Bbq0E9hXYyrXbL4TnIE__vtQ2QwiZ3i40NZSLiX_a6S0ftYCndVZjf4vlruWur4I3Z0o7CZuFrRMl2CKxyk30w.webp);
+  background-color: lightgray;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  
+}
+
+.intro{
+}
+
+.project{
+  
+}
+.contact{
+  
+  background-color: lightgray;
+}
+
+.skills{
+ 
+  background-color: lightgray;
+}
+
+.footer{
+  height: 30px;
+  background-color: black;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skillimg{
+  width: 20%;
+  height: 20%;
+}
+.aligncenter{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media screen and (max-width: 770px) {
+  .dis_small{
+    display: flex;
+    flex-direction: column;
+   
+  }
+  .dis-none{
+    display: none;
+
+  }
+  .frontpage{
+    background-image: none;
+  }
+}
+
+
