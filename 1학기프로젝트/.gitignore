@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode,python,django,vue,vuejs
-# Edit at https://www.toptal.com/developers/gitignore?templates=windows,visualstudiocode,python,django,vue,vuejs
+# Created by https://www.toptal.com/developers/gitignore/api/windows,python,visualstudiocode,django,vue,vuejs
+# Edit at https://www.toptal.com/developers/gitignore?templates=windows,python,visualstudiocode,django,vue,vuejs
 
 ### Django ###
 *.log
@@ -132,6 +132,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
+.env
 .venv
 env/
 venv/
@@ -325,4 +326,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode,python,django,vue,vuejs
+# End of https://www.toptal.com/developers/gitignore/api/windows,python,visualstudiocode,django,vue,vuejs
